@@ -3,12 +3,24 @@
 
 *The Operations that you can perform using this header file are listed below : -*
 ```c
-ZeroOneRepresentation
-Store
-CopyMatrixAtoB
-BooleanAddition
-BooleanMultiplication
-WarshallAlgorithm
+
+//Represents the Zero-One Matrics of Relation R having dimension cardinalNo*cardinalNo with name 'Name'
+void ZeroOneRepresentation(int cardinalNo, int R[20][20],char Name[10]);
+
+// Takes input from the User of Relation defined from set A to A with n(A) = cardinalNo
+void Store(int cardinalNo, int A[], int R[20][20]);
+
+// Copies Matrix from A to B having dimensions size*size
+void CopyMatrixAtoB(int size ,int A[20][20] , int B[20][20]);
+
+// Returns addition under Boolean Laws
+int BooleanAddition (int a, int b);
+
+// Returns Multiplication under Boolean Laws
+int BooleanMultiplication (int a, int b);
+
+// Finds Transitive Closure of Relation R using Warshall Algorithm and Stores it in Closure
+void WarshallAlgorithm(int cardinalNo, int R[20][20], int Closure[20][20]);
 ```
 
 ##### You can get the information about the prototype of the functions provided from Relations.h 
