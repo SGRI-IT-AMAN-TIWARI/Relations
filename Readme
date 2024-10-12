@@ -1,0 +1,25 @@
+# Welcome to the world of Relations 
+## In this C project you will get all the Operations that are to be performed over the relations 
+
+*The Operations that you can perform using this header file are listed below : -*
+```c
+ZeroOneRepresentation
+Store
+CopyMatrixAtoB
+BooleanAddition
+BooleanMultiplication
+WarshallAlgorithm
+```
+
+##### You can get the information about the prototype of the functions provided from Relations.h 
+
+### How to run the code and include the header file in your project 
+#### Workspace.c is the file where you have to use all the functions provided. 
+#### Wherever your workspace file is make sure that Relations.c, Relations.o and Relations.h file should be in same parent folder
+
+### Run the following command 
+### gcc Workspace.c Relations.o -o Workspace 
+#### You will get and executable file named Workspace 
+
+### If you wish to change or add functions to relations.c, add them and run the follwing command before execution of above command
+### gcc -c Relations.c -o Relations.o
